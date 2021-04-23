@@ -1,0 +1,19 @@
+{
+  "name": "js-project-starter",
+  "version": "1.0.0",
+  "description": "starter template for js projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/privateOmega/js-project-starter.git"
+  },
+  "author": "privateOmega <privateOmega@protonmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/privateOmega/js-project-starter/issues"
+  },
+  "homepage": "https://github.com/privateOmega/js-project-starter#readme"
+}
