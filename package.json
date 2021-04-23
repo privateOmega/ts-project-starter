@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/privateOmega/js-project-starter#readme",
   "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
     "eslint": "^7.24.0",
     "eslint-config-prettier": "^8.2.0",
     "husky": "^4.3.8",
