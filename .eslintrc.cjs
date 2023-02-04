@@ -12,5 +12,4 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   root: true,
-  ignorePatterns: 'dist/**/*.js',
 };
