@@ -5,7 +5,7 @@ specifiers:
   '@babel/core': ^7.20.12
   '@babel/preset-env': ^7.20.2
   '@commitlint/cli': ^17.4.2
-  '@commitlint/config-conventional': ^12.1.4
+  '@commitlint/config-conventional': ^17.4.2
   core-js: ^3.27.2
   eslint: ^7.32.0
   eslint-config-prettier: ^8.6.0
@@ -21,7 +21,7 @@ devDependencies:
   '@babel/core': 7.20.12
   '@babel/preset-env': 7.20.2_@babel+core@7.20.12
   '@commitlint/cli': 17.4.2
-  '@commitlint/config-conventional': 12.1.4
+  '@commitlint/config-conventional': 17.4.2
   eslint: 7.32.0
   eslint-config-prettier: 8.6.0_eslint@7.32.0
   husky: 4.3.8
@@ -1225,11 +1225,11 @@ packages:
       - '@swc/wasm'
     dev: true
 
-  /@commitlint/config-conventional/12.1.4:
-    resolution: {integrity: sha512-ZIdzmdy4o4WyqywMEpprRCrehjCSQrHkaRTVZV411GyLigFQHlEBSJITAihLAWe88Qy/8SyoIe5uKvAsV5vRqQ==}
-    engines: {node: '>=v10'}
+  /@commitlint/config-conventional/17.4.2:
+    resolution: {integrity: sha512-JVo1moSj5eDMoql159q8zKCU8lkOhQ+b23Vl3LVVrS6PXDLQIELnJ34ChQmFVbBdSSRNAbbXnRDhosFU+wnuHw==}
+    engines: {node: '>=v14'}
     dependencies:
-      conventional-changelog-conventionalcommits: 4.6.3
+      conventional-changelog-conventionalcommits: 5.0.0
     dev: true
 
   /@commitlint/config-validator/17.4.0:
@@ -1841,8 +1841,8 @@ packages:
       q: 1.5.1
     dev: true
 
-  /conventional-changelog-conventionalcommits/4.6.3:
-    resolution: {integrity: sha512-LTTQV4fwOM4oLPad317V/QNQ1FY4Hju5qeBIM1uTHbrnCE+Eg4CdRZ3gO2pUeR+tzWdp80M2j3qFFEDWVqOV4g==}
+  /conventional-changelog-conventionalcommits/5.0.0:
+    resolution: {integrity: sha512-lCDbA+ZqVFQGUj7h9QBKoIpLhl8iihkO0nCTyRNzuXtcd7ubODpYB04IFy31JloiJgG0Uovu8ot8oxRzn7Nwtw==}
     engines: {node: '>=10'}
     dependencies:
       compare-func: 2.0.0
