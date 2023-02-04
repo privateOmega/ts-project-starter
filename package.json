@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "prettier:check": "prettier --check '**/*.{js}'"
+    "prettier:check": "prettier --check '**/*.{js}'",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -36,12 +37,6 @@
       "prettier --write",
       "eslint --fix"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
   },
   "dependencies": {
     "core-js": "^3.27.2"
