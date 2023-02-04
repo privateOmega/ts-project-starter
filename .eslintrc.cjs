@@ -4,6 +4,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:import/recommended',
+    'plugin:import/typescript',
     'plugin:prettier/recommended',
   ],
   parser: '@typescript-eslint/parser',
@@ -13,4 +14,10 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   root: true,
+  settings: {
+    'import/resolver': {
+      typescript: true,
+      node: true,
+    },
+  },
 };
