@@ -1,4 +1,0 @@
-{
-  "extends": ["prettier"],
-  "ignorePatterns": "dist/**/*.js"
-}
